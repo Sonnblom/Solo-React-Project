@@ -1,0 +1,626 @@
+/* Application CSS ( General CSS ) */
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+
+  /* background-image: linear-gradient(to right, rgb(55, 3, 119), rgb(3, 0, 20)); */
+  background-color: rgb(26, 26, 26);
+  overflow-x: hidden;
+
+}
+
+.SHOP_PAGE .header {
+  text-decoration: none;
+}
+
+.APP_PAGE .Logo {
+  height: 500px;
+  background-color: transparent;
+}
+
+.SHOP_PAGE .Logo {
+  height: 500px;
+  background-color: transparent;
+  border: solid rgb(191, 255, 0) 5px;
+}
+
+
+.APP_PAGE html {
+  max-width: 1280px;
+  margin: 0px;
+  padding: none;
+
+  text-align: center;
+}
+
+.APP_PAGE .App {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+
+/* Cube CSS ( General CSS ) */
+
+.APP_PAGE .Home {
+  display: flex;
+  /* background-color: black; */
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+@font-face {
+  font-family: paragraph;
+  src: url(Assets/effortless.ttf);
+
+}
+
+.APP_PAGE .gridHead {
+  display: flex;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+/* Navigation Bar */
+.APP_PAGE .navBar {
+  display: flex;
+  width: 1000px;
+  height: 50px;
+  /* background-color:rgb(188, 188, 188); */
+  background-color: rgb(242, 255, 0);
+  align-self: center;
+  border-radius: 15px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  /* z-index: 2; */
+  position: relative;
+}
+
+
+
+.APP_PAGE .navIcon1:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.APP_PAGE .navIcon1 {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  /* background-color:rgba(143, 60, 60, 0); */
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  border-left: 2px solid rgb(84, 84, 84);
+  border-right: 1px solid rgb(84, 84, 84);
+  transition: all .2s;
+
+
+}
+
+.APP_PAGE .navIcon2:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.APP_PAGE .navIcon2 {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  /* background-color:rgb(143, 60, 60); */
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  border-left: 1px solid rgb(84, 84, 84);
+  border-right: 1px solid rgb(84, 84, 84);
+  transition: all .2s;
+}
+
+.APP_PAGE .navIcon3:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.APP_PAGE .navIcon3 {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  /* background-color:rgb(143, 60, 60); */
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  border-left: 1px solid rgb(84, 84, 84);
+  border-right: 1px solid rgb(84, 84, 84);
+  transition: all .2s;
+}
+
+.APP_PAGE .navIcon4:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.APP_PAGE .navIcon4 {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  /* background-color:rgb(143, 60, 60); */
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  border-left: 1px solid rgb(84, 84, 84);
+  border-right: 2px solid rgb(84, 84, 84);
+  transition: all .2s;
+}
+
+.APP_PAGE .gridBody {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 25px;
+  border-radius: 20px;
+  /* background-color: rgb(255, 255, 255); */
+  margin-top: 50px;
+}
+
+.APP_PAGE .leftBox {
+  border: 2.5px solid rgb(255, 123, 0);
+  height: 600px;
+  width: 300px;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.APP_PAGE .rightBox {
+  border: 2.5px solid rgb(255, 123, 0);
+  height: 600px;
+  width: 1250px;
+  border-radius: 20px;
+}
+
+/* Home CSS */
+
+.HOME_PAGE .html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Home_Home is the main home page parent box that contains all the contents. */
+.HOME_PAGE .Home_Home {
+  height: 1250px;
+  width: 1250px;
+
+  border-radius: 10px;
+  border: solid 5px rgb(0, 255, 94);
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.HOME_PAGE .DivBox1 {
+  height: 450px;
+  width: 450px;
+  /* background-color: rgb(237, 237, 237); */
+
+  grid-row: 2/2;
+  grid-column: 1/1;
+  border-radius: 10px;
+  border: solid 5px rgb(0, 255, 94);
+  color: rgb(0, 255, 94);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.HOME_PAGE .DivBox2 {
+  height: 500px;
+  width: 500px;
+  /* background-color: rgb(237, 237, 237); */
+
+  grid-row: 2/2;
+  grid-column: 2/2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HOME_PAGE .DivBox3 {
+  height: 350px;
+  width: 900px;
+  /* background-color: rgb(237, 237, 237); */
+  color: #1eff00;
+ 
+
+  grid-row: 1/1;
+  grid-column: 1/3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Listing CSS */
+
+.LISTING_PAGE html {
+  overflow: hidden;
+  overflow-y: hidden;
+  display: none;
+}
+
+.LISTING_PAGE .parent {
+  height: 200px;
+  width: 350px;
+  border: solid orange 5px;
+  display: grid;
+}
+
+.LISTING_PAGE .pageBox {
+
+  height: 525px;
+  padding-top: 25px;
+  width: 1150px;
+  border: solid rgb(187, 187, 187) 4px;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-rows: 25px 250px 250px;
+  grid-template-columns: 50% 50%;
+
+}
+
+.LISTING_PAGE .imageBox {
+  width: 450px;
+  height: 450px;
+  margin: 10px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  justify-self: center;
+
+  grid-row: 2/4;
+  grid-column: 1/1;
+}
+
+.LISTING_PAGE .infoBox {
+
+  width: 90%;
+  height: 110%;
+  margin: 10px;
+
+  border-radius: 10px;
+  border: solid rgb(187, 187, 187) 4px;
+  color: #1eff00;
+  padding: 10px;
+
+
+  grid-row: 2/2;
+  grid-column: 2/2;
+}
+
+
+
+.LISTING_PAGE .stripeButton {
+
+  width: 350px;
+  height: 110px;
+  margin-top: 45px;
+
+  border-radius: 10px;
+  margin-top: 60px;
+
+  grid-column: 2/2;
+  grid-row: 3/4;
+
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  
+
+}
+
+.LISTING_PAGE .X {
+
+  display: grid;
+  grid-row: 1/1;
+  grid-column: 1/1;
+
+  /* top: 5px; */
+
+
+  width: 20px;
+  height: 20px;
+  /* margin: 10px; */
+  margin-left: 15px;
+
+  border-radius: 2px;
+  border: solid rgb(187, 187, 187) 3px;
+
+  text-align: center;
+
+}
+
+/* Shop CSS */
+
+
+
+
+/* Home_Home is the main home page parent box that contains all the contents. */
+.SHOP_PAGE .Shop_Shop {
+  /* height: 1250px; */
+  /* width: 1250px; */
+
+  border-radius: 10px;
+  border: solid 5px rgb(0, 255, 94);
+
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 500px 800px 800px;
+  align-items: center;
+  justify-items: center;
+}
+
+.SHOP_PAGE .ShopBanner {
+  height: 350px;
+  width: 900px;
+  /* background-color: rgb(237, 237, 237); */
+
+  grid-row: 1/1;
+  grid-column: 1/3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SHOP_PAGE .ShopItem1 {
+  height: 700px;
+  width: 600px;
+
+
+  grid-row: 2/2;
+  grid-column: 1/1;
+
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.SHOP_PAGE .ShopItem2 {
+  height: 700px;
+  width: 600px;
+
+
+  grid-row: 2/2;
+  grid-column: 2/2;
+
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.SHOP_PAGE .ShopItem3 {
+  height: 700px;
+  width: 600px;
+
+
+  grid-row: 3/3;
+  grid-column: 1/1;
+
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.SHOP_PAGE .ShopItem4 {
+  height: 700px;
+  width: 600px;
+
+
+  grid-row: 3/3;
+  grid-column: 2/2;
+
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Index CSS */
+
+.INDEX_PAGE html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* .INDEX_PAGE a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+.INDEX_PAGE a:hover {
+  color: #535bf2;
+}
+
+.INDEX_PAGE body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.INDEX_PAGE h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.INDEX_PAGE button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.INDEX_PAGE button:hover {
+  border-color: #646cff;
+}
+
+.INDEX_PAGE button:focus,
+.INDEX_PAGE .INDEX_PAGE button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #1eff00;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Buy me a coffee button */
+
+.COFFEE_PAGE .buyButton {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #ff813f;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.6px;
+  box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5);
+  font-family: cursive;
+}
+
+.buyButton:hover,
+.buyButton:active,
+.buyButton:focus {
+  text-decoration: underline;
+  box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+  opacity: 0.85;
+  color: #ffffff;
+}
+
+.COFFEE_PAGE .coffeeImage {
+  height: 2vh;
+  box-shadow: none;
+  border: none;
+  vertical-align: middle;
+}
+
+.COFFEE_PAGE .coffeeButtonText {
+  margin-left: 15px;
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+.shopImgVial1 {
+  height: 445px;
+  width: 445px;
+  align-self: center;
+  justify-self: center;
+  border: solid rgb(0, 255, 94) 4px;
+  border-radius: 10px;
+}
+
+.shopImgVial2 {
+  height: 445px;
+  width: 445px;
+  align-self: center;
+  justify-self: center;
+  border: solid rgb(0, 255, 94) 4px;
+  border-radius: 10px;
+}
+
+.shopImgVial3 {
+  height: 445px;
+  width: 445px;
+  align-self: center;
+  justify-self: center;
+  border: solid rgb(0, 255, 94) 4px;
+  border-radius: 10px;
+}
+
+.shopImgVial4 {
+  height: 445px;
+  width: 445px;
+  align-self: center;
+  justify-self: center;
+  border: solid rgb(0, 255, 94) 4px;
+  border-radius: 10px;
+}
+
+.hazardImg{
+  height: 500px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+}
+
+.LISTING_PAGE .PurchaseButton{
+  height: 105px;
+}
+
+.specHead{
+  height: 300px;
+  width: auto;
+}
+
+.SHOP_PAGE .head{
+  color: #1eff00 rgb(0, 255, 94) 4px;
+}
